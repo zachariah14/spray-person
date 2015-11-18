@@ -1,0 +1,8 @@
+<h1 class="cover-heading">People</h1>
+<p class="lead">List all people, post a new one
+  <a class="btn btn-primary btn-sm" href="#/person/new"> <i class="fa fa-plus fa-fw"></i><i class="fa fa-child fa-fw fa-lg"></i></a>
+</p>
+<hr>
+<p class="lead">
+  <div class="media" ng-repeat="person in people" ng-include="'views/partials/person-data.html'"></div>
+</p>

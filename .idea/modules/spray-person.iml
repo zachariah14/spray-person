@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="spray-person" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../target/scala-2.10/classes" />
+    <output-test url="file://$MODULE_DIR$/../../target/scala-2.10/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.10/src_managed/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.10/src_managed/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../.." type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.10/resource_managed/main" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.10/resource_managed/test" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="SBT: ch.qos.logback:logback-classic:1.0.13:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.13.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-classic/docs/logback-classic-1.0.13-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.0.13-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: ch.qos.logback:logback-core:1.0.13:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.13.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-core/docs/logback-core-1.0.13-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.0.13-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: com.chuusai:shapeless_2.10:1.2.4:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.chuusai/shapeless_2.10/jars/shapeless_2.10-1.2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.chuusai/shapeless_2.10/docs/shapeless_2.10-1.2.4-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.chuusai/shapeless_2.10/srcs/shapeless_2.10-1.2.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.4:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/jars/concurrentlinkedhashmap-lru-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/docs/concurrentlinkedhashmap-lru-1.4-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/srcs/concurrentlinkedhashmap-lru-1.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: com.typesafe:config:1.0.2:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe/config/bundles/config-1.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe/config/docs/config-1.0.2-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe/config/srcs/config-1.0.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: com.typesafe.akka:akka-actor_2.10:2.2.3:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/docs/akka-actor_2.10-2.2.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/srcs/akka-actor_2.10-2.2.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: com.typesafe.akka:akka-slf4j_2.10:2.1.4:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/bundles/akka-slf4j_2.10-2.1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/docs/akka-slf4j_2.10-2.1.4-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/srcs/akka-slf4j_2.10-2.1.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: com.typesafe.akka:akka-testkit_2.10:2.2.3:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/bundles/akka-testkit_2.10-2.2.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/docs/akka-testkit_2.10-2.2.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/srcs/akka-testkit_2.10-2.2.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: io.spray:spray-caching:1.2.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-caching/bundles/spray-caching-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-caching/docs/spray-caching-1.2.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-caching/srcs/spray-caching-1.2.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: io.spray:spray-can:1.2.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-can/bundles/spray-can-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-can/docs/spray-can-1.2.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-can/srcs/spray-can-1.2.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: io.spray:spray-client:1.2.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-client/bundles/spray-client-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-client/docs/spray-client-1.2.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-client/srcs/spray-client-1.2.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: io.spray:spray-http:1.2.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-http/bundles/spray-http-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-http/docs/spray-http-1.2.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-http/srcs/spray-http-1.2.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: io.spray:spray-httpx:1.2.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-httpx/bundles/spray-httpx-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-httpx/docs/spray-httpx-1.2.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-httpx/srcs/spray-httpx-1.2.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: io.spray:spray-io:1.2.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-io/bundles/spray-io-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-io/docs/spray-io-1.2.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-io/srcs/spray-io-1.2.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: io.spray:spray-json_2.10:1.2.5:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.10/jars/spray-json_2.10-1.2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.10/docs/spray-json_2.10-1.2.5-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-json_2.10/srcs/spray-json_2.10-1.2.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: io.spray:spray-routing:1.2.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-routing/bundles/spray-routing-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-routing/docs/spray-routing-1.2.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-routing/srcs/spray-routing-1.2.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: io.spray:spray-servlet:1.2.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-servlet/bundles/spray-servlet-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-servlet/docs/spray-servlet-1.2.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-servlet/srcs/spray-servlet-1.2.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: io.spray:spray-testkit:1.2.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-testkit/jars/spray-testkit-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-testkit/docs/spray-testkit-1.2.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-testkit/srcs/spray-testkit-1.2.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: io.spray:spray-util:1.2.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-util/bundles/spray-util-1.2.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-util/docs/spray-util-1.2.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/io.spray/spray-util/srcs/spray-util-1.2.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: org.jvnet.mimepull:mimepull:1.9.3:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.jvnet.mimepull/mimepull/jars/mimepull-1.9.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.jvnet.mimepull/mimepull/docs/mimepull-1.9.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.jvnet.mimepull/mimepull/srcs/mimepull-1.9.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: org.parboiled:parboiled-core:1.1.6:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.parboiled/parboiled-core/bundles/parboiled-core-1.1.6.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.parboiled/parboiled-core/docs/parboiled-core-1.1.6-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.parboiled/parboiled-core/srcs/parboiled-core-1.1.6-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: org.parboiled:parboiled-scala_2.10:1.1.6:jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../activator-dist-1.3.6/repository/org.parboiled/parboiled-scala_2.10/1.1.6/bundles/parboiled-scala_2.10.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.parboiled/parboiled-scala_2.10/docs/parboiled-scala_2.10-1.1.6-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.parboiled/parboiled-scala_2.10/srcs/parboiled-scala_2.10-1.1.6-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: org.scala-lang:scala-library:2.10.3:jar" type="Scala">
+        <properties>
+          <compiler-classpath>
+            <root url="file://$USER_HOME$/.sbt/boot/scala-2.10.3/lib/scala-compiler.jar" />
+            <root url="file://$USER_HOME$/.sbt/boot/scala-2.10.3/lib/scala-library.jar" />
+            <root url="file://$USER_HOME$/.sbt/boot/scala-2.10.3/lib/scala-reflect.jar" />
+          </compiler-classpath>
+        </properties>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.3/lib/scala-library.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.10.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="SBT: org.scalaz:scalaz-concurrent_2.10:7.0.2:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/bundles/scalaz-concurrent_2.10-7.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/docs/scalaz-concurrent_2.10-7.0.2-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/srcs/scalaz-concurrent_2.10-7.0.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="SBT: org.scalaz:scalaz-core_2.10:7.0.2:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/bundles/scalaz-core_2.10-7.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/docs/scalaz-core_2.10-7.0.2-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.10/srcs/scalaz-core_2.10-7.0.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="SBT: org.scalaz:scalaz-effect_2.10:7.0.2:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-effect_2.10/bundles/scalaz-effect_2.10-7.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-effect_2.10/docs/scalaz-effect_2.10-7.0.2-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-effect_2.10/srcs/scalaz-effect_2.10-7.0.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: org.slf4j:slf4j-api:1.7.5:jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../activator-dist-1.3.6/repository/org.slf4j/slf4j-api/1.7.5/jars/slf4j-api.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.5-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="SBT: org.specs2:specs2_2.10:2.2.3:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2_2.10/jars/specs2_2.10-2.2.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2_2.10/docs/specs2_2.10-2.2.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2_2.10/srcs/specs2_2.10-2.2.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
