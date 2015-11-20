@@ -1,64 +1,10 @@
-New log file opened at Wed Nov 18 14:55:47 EET 2015 by 740@PTUA-LS0382
-Taking next connection to: 50992
-New client attempting to connect on port: 50993-50992
-  Address = /10.251.193.193:50992
-This client on port 50993 has uuid 714d97c0-c207-43dd-96cb-78d98ad33247 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-714d97c0-c207-43dd-96cb-78d98ad33247
-Taking next connection to: 50992
-New client attempting to connect on port: 50994-50992
-  Address = /10.251.193.193:50992
-Handshake exception on socket: 50994
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Software caused connection abort: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:170)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
-	at java.io.DataInputStream.readInt(DataInputStream.java:387)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 50992
-New client attempting to connect on port: 50995-50992
-  Address = /10.251.193.193:50992
-This client on port 50995 has uuid 22d01018-d2c4-4a35-8a0d-53dc209e152e configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-714d97c0-c207-43dd-96cb-78d98ad33247, activator-22d01018-d2c4-4a35-8a0d-53dc209e152e
-Taking next connection to: 50992
+New log file opened at Fri Nov 20 14:18:05 EET 2015 by 7556@PTUA-LS0382
+Taking next connection to: 49377
+New client attempting to connect on port: 49378-49377
+  Address = /10.67.12.132:49377
+This client on port 49378 has uuid b4021b12-c115-4a4d-8b44-16819dd56d20 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-b4021b12-c115-4a4d-8b44-16819dd56d20
+Taking next connection to: 49377
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50992
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50992
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50992
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50992
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50992
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50992
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50992
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50992
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 50992
-Checking to see if clients are empty...
-No non-daemon clients connected after 3 min. Shutting down.
-Server socket thread exiting.
-0 clients open, will close them...
-All client sockets have been closed.
-Closing the 740@PTUA-LS0382 logs at Wed Nov 18 15:25:47 EET 2015, goodbye.
+Taking next connection to: 49377
