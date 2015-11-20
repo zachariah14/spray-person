@@ -270,3 +270,10 @@ Total time: 3 s, completed Nov 20, 2015 2:20:48 PM
 > server-post-command-error-handler
 > server-post-command-cleanup
 > server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 7556@PTUA-LS0382 logs at Fri Nov 20 16:00:06 EET 2015, goodbye.
